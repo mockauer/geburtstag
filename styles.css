@@ -1,0 +1,118 @@
+* { padding: 0; margin: 0; }
+img { border:none }
+body {
+ font-family: Verdana;
+ font-size: 12px;
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 922px;
+}
+#header {
+ color: #333;
+ width: 900px;
+ float: left;
+ padding: 10px;
+ border: 1px solid #ccc;
+ height: 25px;
+ margin: 10px 0px 5px 0px;
+ background: url("img/bgheader.png") repeat-x;
+}
+#leftcolumn { 
+ color: #333;
+ border: 1px solid #ccc;
+ background:#F6F0E0;
+ margin: 0px 5px 5px 0px;
+ padding: 10px;
+ height: 450px;
+ width: 195px;
+ float: left;
+}
+#rightcolumn { 
+ float: right;
+ color: #000;
+ border: 1px solid #ccc;
+ background:#ddd;
+ margin: 0px 0px 5px 0px;
+ padding: 10px;
+ height: 450px;
+ width: 678px;
+ display: inline;
+ overflow:auto;
+}
+#footer { 
+ width: 900px;
+ clear: both;
+ color: #333;
+ border: 1px solid #ccc;
+ background-color:#F3F2ED;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+ text-align: center;
+}
+/* Button */
+.button1 {
+	padding:0;
+	margin: 10px 0px 10px 0px;
+	border:none;
+	font-size:10px;
+	color: #AE0000;
+}
+/*Trennlinie*/
+.hr{
+    height: 5px;
+    margin: 5px 0px 5px 0px;
+    background-color: #000;
+}
+/*Linktabelle*/
+.linktabelle{
+    text-decoration: none;
+}
+/*Überschrift*/
+#h1{
+    font-size: 16px;
+    color: #f00;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#h2{
+    font-size: 14px;
+    color: #0026FF;
+    text-align: center;
+    padding-bottom: 5px;
+}
+/*Time*/
+#time{
+    padding: 100px 10px 100px 10px;
+    text-align: center;
+}
+/* Menü */
+.outer a, .outer div, .outer li, .outer ul, .outer body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+div.menu{
+	width: 193px;
+}
+div.menu ul{
+	list-style: none;
+	text-indent: 0px;
+}
+div.menu li{
+	margin-top: 3px;
+}
+div.menu a{
+	font: 12px Verdana;
+	padding: 4px;
+	color: #646464;
+	display:block;
+	padding: 6px 30px;
+	height: 20px;
+	text-decoration: none;
+	background: url('img/background.gif');
+}
+div.menu a:hover{
+	background: url('img/highlight.gif') no-repeat right;
+	padding: 6px 40px;
+}:148px;background:url(images/nav_active.jpg) no-repeat;color:#b18211;}
